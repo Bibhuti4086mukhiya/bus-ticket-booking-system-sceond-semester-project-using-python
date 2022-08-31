@@ -1,1 +1,3 @@
 # bus-ticket-booking-system-sceond-semester-project-using-python-GUI
+
+Bus ticket booking management system was made of python language. There is required a lot practice to this language .by making this system understand concept of object-oriented programming. And testing is a strategic challenge and it very helpful to determine hidden bugs, usability issues, security concerns. MySQL was used to store all information of admin and customer. There many libraries in python that are used in this system like datetime, tkinter, message box etc. and Exceptional handling, error and info message have made to handle the possible error in program.
