@@ -1,0 +1,5 @@
+create database if not exists cs19d;
+
+create table Ticket_Booking (id int primary key AUTO_INCREMENT,Bus_company varchar(50),Bus_Number varchar(50), Name varchar(50), no_of_passenger varchar(15), Date varchar(15) ,Dep_Time varchar(50), From_ varchar(30), To_ varchar(30), fare_rs varchar(30));
+create table bus_register (id int primary key AUTO_INCREMENT,Bus_number varchar(50),Bus_company varchar(50), driver_name varchar(50), driver_contact varchar(15), total_seat varchar(15) , route varchar(50), dep_time varchar(30));
+create table registration (username varchar(50) primary key, password varchar(50), firstname varchar(50), lastname varchar(15) , address varchar(50), phone varchar(30));
